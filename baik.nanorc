@@ -1,0 +1,17 @@
+# Author Billal
+
+syntax baik "\.ina$"
+comment "#"
+
+# fungsi name
+color brightblue "fungsi"
+
+# kata kunci
+color brightcyan "\<(selagi|tulis|jika|atau|lainnya|ulang)\>"
+color brightgreen ""([^"\]|\\.)*"|""""
+color brightred "\<(kalau|akhirkalau|untuk|tamat|lagi|tutup)\>"
+# spasi
+color ,green "[[:space:]]+$"
+
+# komentar
+color yellow "#.*"
